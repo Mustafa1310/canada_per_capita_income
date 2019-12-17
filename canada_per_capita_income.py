@@ -43,9 +43,9 @@ Y_pred=regressor.predict(X_test)
 
 plt.scatter(X_train,Y_train,color='red')
 plt.plot(X_train,regressor.predict(X_train),color='blue')
-plt.title('Salary vs Experience (Training Set)')
+plt.title('Year vs PerCapitaIncome(Training Set)')
 plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
+plt.ylabel('PerCapitaIncome')
 plt.show()
 
 
@@ -54,9 +54,9 @@ plt.show()
 
 plt.scatter(X_test,Y_test,color='red')
 plt.plot(X_test,regressor.predict(X_test),color='blue')
-plt.title('Salary vs Experience (Test Set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
+plt.title('Year vs PerCapitaIncome(Test Set)')
+plt.xlabel('Year')
+plt.ylabel('PercapitaIncome')
 plt.show()
 
 
